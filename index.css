@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 250px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.container {
+    background: rgb(236, 123, 123);
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    display: flex;
+    margin-top: 10px;
+    width: 250px;
+   height: 40px;
+   border-radius: 5px;
+   font: 1em sans-serif;
+   padding: 10px;
+}
+
+label{
+    margin-top: 25px;
+    color: aliceblue;
+}
+
+.btn{
+    font-size: 20px;
+    width: 150px;
+    height: 30px;
+    background: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
